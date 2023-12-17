@@ -24,7 +24,7 @@ class _SearchResultScreenState extends State<SearchResultScreen> {
             style: GoogleFonts.poppins(
               fontWeight: FontWeight.w600,
               fontSize: 22,
-              color: Color(0xff414D54),
+              color: const Color(0xff414D54),
             ),
           ),
         ),
@@ -49,7 +49,7 @@ class _SearchResultScreenState extends State<SearchResultScreen> {
             Text(
               "Results of International Courses ",
               style: GoogleFonts.poppins(
-                color: Color(0xff414D54),
+                color: const Color(0xff414D54),
                 fontSize: 12,
                 fontWeight: FontWeight.w700,
               ),
@@ -66,8 +66,8 @@ class _SearchResultScreenState extends State<SearchResultScreen> {
                     child: Container(
                       width: double.infinity,
                       decoration: BoxDecoration(
-                          border:
-                              Border.all(width: 1, color: Color(0xffDDEBE5))),
+                          border: Border.all(
+                              width: 1, color: const Color(0xffDDEBE5))),
                       child: Column(
                         children: [
                           SizedBox(
@@ -83,7 +83,7 @@ class _SearchResultScreenState extends State<SearchResultScreen> {
                                   style: GoogleFonts.poppins(
                                     fontWeight: FontWeight.w500,
                                     fontSize: 10,
-                                    color: Color(0xff414D54),
+                                    color: const Color(0xff414D54),
                                   ),
                                 ),
                                 Row(
@@ -99,7 +99,7 @@ class _SearchResultScreenState extends State<SearchResultScreen> {
                                       style: GoogleFonts.poppins(
                                         fontWeight: FontWeight.w500,
                                         fontSize: 8,
-                                        color: Color(0xff414D54),
+                                        color: const Color(0xff414D54),
                                       ),
                                     ),
                                   ],
@@ -110,7 +110,7 @@ class _SearchResultScreenState extends State<SearchResultScreen> {
                           // SizedBox(
                           //   height: 8.h,
                           // ),
-                          Divider(
+                          const Divider(
                             thickness: 1,
                             color: Color(0xffDDEBE5),
                           ),
@@ -131,7 +131,7 @@ class _SearchResultScreenState extends State<SearchResultScreen> {
                                       style: GoogleFonts.poppins(
                                         fontWeight: FontWeight.w500,
                                         fontSize: 8,
-                                        color: Color(0xff414D54),
+                                        color: const Color(0xff414D54),
                                       ),
                                     ),
                                     Text(
@@ -139,7 +139,7 @@ class _SearchResultScreenState extends State<SearchResultScreen> {
                                       style: GoogleFonts.poppins(
                                         fontWeight: FontWeight.w500,
                                         fontSize: 8,
-                                        color: Color(0xff414D54),
+                                        color: const Color(0xff414D54),
                                       ),
                                     ),
                                   ],
@@ -153,7 +153,7 @@ class _SearchResultScreenState extends State<SearchResultScreen> {
                                       style: GoogleFonts.poppins(
                                         fontWeight: FontWeight.w500,
                                         fontSize: 8,
-                                        color: Color(0xff414D54),
+                                        color: const Color(0xff414D54),
                                       ),
                                     ),
                                     Text(
@@ -161,7 +161,7 @@ class _SearchResultScreenState extends State<SearchResultScreen> {
                                       style: GoogleFonts.poppins(
                                         fontWeight: FontWeight.w500,
                                         fontSize: 8,
-                                        color: Color(0xff414D54),
+                                        color: const Color(0xff414D54),
                                       ),
                                     ),
                                   ],
@@ -175,7 +175,7 @@ class _SearchResultScreenState extends State<SearchResultScreen> {
                                       style: GoogleFonts.poppins(
                                         fontWeight: FontWeight.w500,
                                         fontSize: 8,
-                                        color: Color(0xff414D54),
+                                        color: const Color(0xff414D54),
                                       ),
                                     ),
                                     Text(
@@ -183,7 +183,7 @@ class _SearchResultScreenState extends State<SearchResultScreen> {
                                       style: GoogleFonts.poppins(
                                         fontWeight: FontWeight.w500,
                                         fontSize: 8,
-                                        color: Color(0xff414D54),
+                                        color: const Color(0xff414D54),
                                       ),
                                     ),
                                   ],
@@ -197,7 +197,7 @@ class _SearchResultScreenState extends State<SearchResultScreen> {
                                       style: GoogleFonts.poppins(
                                         fontWeight: FontWeight.w500,
                                         fontSize: 8,
-                                        color: Color(0xff414D54),
+                                        color: const Color(0xff414D54),
                                       ),
                                     ),
                                     Text(
@@ -206,7 +206,7 @@ class _SearchResultScreenState extends State<SearchResultScreen> {
                                         fontWeight: FontWeight.w500,
                                         fontSize: 8,
                                         decoration: TextDecoration.underline,
-                                        color: Color(0xff414D54),
+                                        color: const Color(0xff414D54),
                                       ),
                                     ),
                                   ],
@@ -222,7 +222,8 @@ class _SearchResultScreenState extends State<SearchResultScreen> {
                                   decoration: BoxDecoration(
                                     borderRadius: BorderRadius.circular(5),
                                     border: Border.all(
-                                        width: 1, color: Color(0xffDDEBE5)),
+                                        width: 1,
+                                        color: const Color(0xffDDEBE5)),
                                   ),
                                   child: Row(
                                     mainAxisAlignment:
@@ -233,7 +234,7 @@ class _SearchResultScreenState extends State<SearchResultScreen> {
                                         style: GoogleFonts.poppins(
                                           fontWeight: FontWeight.w500,
                                           fontSize: 8,
-                                          color: Color(0xff414D54),
+                                          color: const Color(0xff414D54),
                                         ),
                                       ),
                                       Container(
@@ -243,14 +244,14 @@ class _SearchResultScreenState extends State<SearchResultScreen> {
                                         decoration: BoxDecoration(
                                           borderRadius:
                                               BorderRadius.circular(5),
-                                          color: Color(0xff2CD456),
+                                          color: const Color(0xff2CD456),
                                         ),
                                         child: Text(
                                           'Open',
                                           style: GoogleFonts.poppins(
                                             fontWeight: FontWeight.w500,
                                             fontSize: 8,
-                                            color: Color(0xffffffff),
+                                            color: const Color(0xffffffff),
                                           ),
                                         ),
                                       )

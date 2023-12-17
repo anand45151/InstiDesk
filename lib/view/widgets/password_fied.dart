@@ -45,14 +45,14 @@ class _PasswordFieldState extends State<PasswordField> {
             decoration: InputDecoration(
               border: border,
               enabledBorder: border,
-              fillColor: Color(0xffFDFDFD),
+              fillColor: const Color(0xffFDFDFD),
               focusedBorder: border.copyWith(
                 borderSide: const BorderSide(color: Colors.grey),
               ),
               contentPadding: EdgeInsets.only(left: 16.w),
               hintText: widget.hintText,
               hintStyle: GoogleFonts.poppins(
-                color: Color(0xff414D54),
+                color: const Color(0xff414D54),
                 fontSize: 12,
                 fontWeight: FontWeight.w600,
               ),

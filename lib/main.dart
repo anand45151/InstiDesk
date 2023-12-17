@@ -1,10 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:instidesk/provider/auth_provider.dart';
+
 import 'package:instidesk/utils/shared_prefs.dart';
 import 'package:instidesk/view/onboarding_screen.dart';
-import 'package:provider/provider.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -31,7 +30,7 @@ class MyApp extends StatelessWidget {
             // colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
             //useMaterial3: true,
             ),
-        home: OnboardingScreen(),
+        home: const OnboardingScreen(),
       ),
     );
   }

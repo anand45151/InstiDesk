@@ -61,7 +61,7 @@ class CustomTextField extends StatelessWidget {
             maxLength: maxLength,
             decoration: InputDecoration(
               border: border,
-              fillColor: Color(0xffFDFDFD),
+              fillColor: const Color(0xffFDFDFD),
               enabledBorder: border,
               focusedBorder: border.copyWith(
                 borderSide: const BorderSide(color: Colors.grey),
@@ -69,7 +69,7 @@ class CustomTextField extends StatelessWidget {
               contentPadding: EdgeInsets.only(left: 16.w),
               hintText: hintText,
               hintStyle: GoogleFonts.poppins(
-                color: Color(0xff414D54),
+                color: const Color(0xff414D54),
                 fontSize: 12,
                 fontWeight: FontWeight.w600,
               ),

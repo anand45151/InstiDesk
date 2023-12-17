@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:instidesk/view/collage_application_screen.dart';
 import 'package:instidesk/view/search_screen.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -30,7 +31,7 @@ class _HomeScreenState extends State<HomeScreen> {
               style: GoogleFonts.poppins(
                 fontWeight: FontWeight.w600,
                 fontSize: 22,
-                color: Color(0xff414D54),
+                color: const Color(0xff414D54),
               ),
             ),
           ),
@@ -59,10 +60,10 @@ class _HomeScreenState extends State<HomeScreen> {
                       height: 97.h,
                       decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(5),
-                          border:
-                              Border.all(width: 1, color: Color(0xffDDEBE5)),
-                          boxShadow: [
-                            new BoxShadow(
+                          border: Border.all(
+                              width: 1, color: const Color(0xffDDEBE5)),
+                          boxShadow: const [
+                            BoxShadow(
                               color: Color(0xffFFFFFF),
                               blurRadius: 10.0,
                             ),
@@ -78,7 +79,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                 style: GoogleFonts.poppins(
                                   fontWeight: FontWeight.w700,
                                   fontSize: 10,
-                                  color: Color(0xff555F60),
+                                  color: const Color(0xff555F60),
                                 ),
                               ),
                               Row(
@@ -88,7 +89,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                     style: GoogleFonts.poppins(
                                       fontWeight: FontWeight.w700,
                                       fontSize: 10,
-                                      color: Color(0xff555F60),
+                                      color: const Color(0xff555F60),
                                     ),
                                   ),
                                   Text(
@@ -96,7 +97,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                     style: GoogleFonts.poppins(
                                       fontWeight: FontWeight.w700,
                                       fontSize: 10,
-                                      color: Color(0xffE42C64),
+                                      color: const Color(0xffE42C64),
                                     ),
                                   ),
                                 ],
@@ -110,7 +111,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                 height: 37.h,
                                 width: 138.w,
                                 decoration: BoxDecoration(
-                                  color: Color(0xff3D3D3D),
+                                  color: const Color(0xff3D3D3D),
                                   borderRadius: BorderRadius.circular(5),
                                 ),
                                 child: Row(
@@ -127,7 +128,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                       style: GoogleFonts.poppins(
                                         fontWeight: FontWeight.w600,
                                         fontSize: 10,
-                                        color: Color(0xffffffff),
+                                        color: const Color(0xffffffff),
                                       ),
                                     ),
                                   ],
@@ -136,14 +137,14 @@ class _HomeScreenState extends State<HomeScreen> {
                               InkWell(
                                 onTap: () {
                                   Navigator.of(context).push(MaterialPageRoute(
-                                    builder: (context) => SearchScreen(),
+                                    builder: (context) => const SearchScreen(),
                                   ));
                                 },
                                 child: Container(
                                   height: 37.h,
                                   width: 130.w,
                                   decoration: BoxDecoration(
-                                    color: Color(0xffffffff),
+                                    color: const Color(0xffffffff),
                                     borderRadius: BorderRadius.circular(5),
                                   ),
                                   child: Row(
@@ -152,12 +153,12 @@ class _HomeScreenState extends State<HomeScreen> {
                                         height: 35.h,
                                         width: 35.w,
                                         decoration: BoxDecoration(
-                                          color: Color(0xffC5CED3)
+                                          color: const Color(0xffC5CED3)
                                               .withOpacity(0.25),
                                           borderRadius:
                                               BorderRadius.circular(10),
                                         ),
-                                        child: Icon(Icons.search),
+                                        child: const Icon(Icons.search),
                                       ),
                                       SizedBox(
                                         width: 14.w,
@@ -167,7 +168,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                         style: GoogleFonts.poppins(
                                           fontWeight: FontWeight.w600,
                                           fontSize: 10,
-                                          color: Color(0xff555F60),
+                                          color: const Color(0xff555F60),
                                         ),
                                       ),
                                     ],
@@ -210,11 +211,11 @@ class _HomeScreenState extends State<HomeScreen> {
                               left: 13.w, top: 5.h, right: 13.w),
                           height: 65.h,
                           decoration: BoxDecoration(
-                            color: Color(0xff3D3D3D),
+                            color: const Color(0xff3D3D3D),
                             borderRadius: BorderRadius.circular(5),
                             border: Border.all(
                               width: 1,
-                              color: Color(0xffDDEBE5),
+                              color: const Color(0xffDDEBE5),
                             ),
                           ),
                           child: Column(
@@ -226,7 +227,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                   style: GoogleFonts.poppins(
                                     fontWeight: FontWeight.w600,
                                     fontSize: 10,
-                                    color: Color(0xffffffff),
+                                    color: const Color(0xffffffff),
                                   ),
                                 ),
                               ),
@@ -237,14 +238,14 @@ class _HomeScreenState extends State<HomeScreen> {
                                   width: 28.w,
                                   alignment: Alignment.center,
                                   decoration: BoxDecoration(
-                                    color: Color(0xffffffff),
+                                    color: const Color(0xffffffff),
                                     borderRadius: BorderRadius.circular(5),
                                   ),
                                   child: Text('VISA',
                                       style: GoogleFonts.poppins(
                                         fontWeight: FontWeight.w600,
                                         fontSize: 8,
-                                        color: Color(0xff000000),
+                                        color: const Color(0xff000000),
                                       )),
                                 ),
                               )
@@ -261,11 +262,11 @@ class _HomeScreenState extends State<HomeScreen> {
                               left: 13.w, top: 5.h, right: 13.w),
                           height: 65.h,
                           decoration: BoxDecoration(
-                            color: Color(0xff2596BE),
+                            color: const Color(0xff2596BE),
                             borderRadius: BorderRadius.circular(5),
                             border: Border.all(
                               width: 1,
-                              color: Color(0xffDDEBE5),
+                              color: const Color(0xffDDEBE5),
                             ),
                           ),
                           child: Column(
@@ -277,7 +278,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                   style: GoogleFonts.poppins(
                                     fontWeight: FontWeight.w600,
                                     fontSize: 10,
-                                    color: Color(0xffffffff),
+                                    color: const Color(0xffffffff),
                                   ),
                                 ),
                               ),
@@ -288,14 +289,14 @@ class _HomeScreenState extends State<HomeScreen> {
                                   width: 28.w,
                                   alignment: Alignment.center,
                                   decoration: BoxDecoration(
-                                    color: Color(0xffffffff),
+                                    color: const Color(0xffffffff),
                                     borderRadius: BorderRadius.circular(5),
                                   ),
                                   child: Text('C',
                                       style: GoogleFonts.poppins(
                                         fontWeight: FontWeight.w600,
                                         fontSize: 12,
-                                        color: Color(0xff000000),
+                                        color: const Color(0xff000000),
                                       )),
                                 ),
                               )
@@ -312,11 +313,11 @@ class _HomeScreenState extends State<HomeScreen> {
                     height: 45.h,
                     padding: EdgeInsets.symmetric(horizontal: 13.w),
                     decoration: BoxDecoration(
-                      color: Color(0xff2596BE),
+                      color: const Color(0xff2596BE),
                       borderRadius: BorderRadius.circular(5),
                       border: Border.all(
                         width: 1,
-                        color: Color(0xffDDEBE5),
+                        color: const Color(0xffDDEBE5),
                       ),
                     ),
                     child: Row(
@@ -327,23 +328,33 @@ class _HomeScreenState extends State<HomeScreen> {
                           style: GoogleFonts.poppins(
                             fontWeight: FontWeight.w600,
                             fontSize: 10,
-                            color: Color(0xffFCFCFC),
+                            color: const Color(0xffFCFCFC),
                           ),
                         ),
-                        Container(
-                          height: 25.h,
-                          width: 75.w,
-                          alignment: Alignment.center,
-                          decoration: BoxDecoration(
-                            color: Color(0xff3D3D3D),
-                            borderRadius: BorderRadius.circular(5),
-                          ),
-                          child: Text(
-                            'Check Status',
-                            style: GoogleFonts.poppins(
-                              fontWeight: FontWeight.w600,
-                              fontSize: 8,
-                              color: Color(0xffFCFCFC),
+                        InkWell(
+                          onTap: () {
+                            Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                  builder: (context) =>
+                                      const CollageApplicationScreen(),
+                                ));
+                          },
+                          child: Container(
+                            height: 25.h,
+                            width: 75.w,
+                            alignment: Alignment.center,
+                            decoration: BoxDecoration(
+                              color: const Color(0xff3D3D3D),
+                              borderRadius: BorderRadius.circular(5),
+                            ),
+                            child: Text(
+                              'Check Status',
+                              style: GoogleFonts.poppins(
+                                fontWeight: FontWeight.w600,
+                                fontSize: 8,
+                                color: const Color(0xffFCFCFC),
+                              ),
                             ),
                           ),
                         )
@@ -357,11 +368,11 @@ class _HomeScreenState extends State<HomeScreen> {
                     height: 45.h,
                     padding: EdgeInsets.symmetric(horizontal: 13.w),
                     decoration: BoxDecoration(
-                      color: Color(0xffFF0000),
+                      color: const Color(0xffFF0000),
                       borderRadius: BorderRadius.circular(5),
                       border: Border.all(
                         width: 1,
-                        color: Color(0xffDDEBE5),
+                        color: const Color(0xffDDEBE5),
                       ),
                     ),
                     child: Row(
@@ -372,13 +383,13 @@ class _HomeScreenState extends State<HomeScreen> {
                           style: GoogleFonts.poppins(
                             fontWeight: FontWeight.w600,
                             fontSize: 10,
-                            color: Color(0xffFCFCFC),
+                            color: const Color(0xffFCFCFC),
                           ),
                         ),
                         InkWell(
                           onTap: () {
                             Navigator.of(context).push(MaterialPageRoute(
-                              builder: (context) => SearchScreen(),
+                              builder: (context) => const SearchScreen(),
                             ));
                           },
                           child: Container(
@@ -386,7 +397,7 @@ class _HomeScreenState extends State<HomeScreen> {
                             width: 75.w,
                             alignment: Alignment.center,
                             decoration: BoxDecoration(
-                              color: Color(0xff3D3D3D),
+                              color: const Color(0xff3D3D3D),
                               borderRadius: BorderRadius.circular(5),
                             ),
                             child: Text(
@@ -394,7 +405,7 @@ class _HomeScreenState extends State<HomeScreen> {
                               style: GoogleFonts.poppins(
                                 fontWeight: FontWeight.w600,
                                 fontSize: 8,
-                                color: Color(0xffFCFCFC),
+                                color: const Color(0xffFCFCFC),
                               ),
                             ),
                           ),
@@ -408,10 +419,10 @@ class _HomeScreenState extends State<HomeScreen> {
                   Container(
                     width: double.infinity,
                     decoration: BoxDecoration(
-                      color: Color(0xffffffff),
+                      color: const Color(0xffffffff),
                       border: Border.all(
                         width: 1,
-                        color: Color(0xffDDEBE5),
+                        color: const Color(0xffDDEBE5),
                       ),
                     ),
                     child: Column(
@@ -428,14 +439,14 @@ class _HomeScreenState extends State<HomeScreen> {
                             style: GoogleFonts.poppins(
                               fontWeight: FontWeight.w500,
                               fontSize: 9,
-                              color: Color(0xff414D54),
+                              color: const Color(0xff414D54),
                             ),
                           ),
                         ),
                         SizedBox(
                           height: 7.h,
                         ),
-                        Divider(
+                        const Divider(
                           thickness: 1,
                           color: Color(0xffDDEBE5),
                         ),
@@ -449,7 +460,7 @@ class _HomeScreenState extends State<HomeScreen> {
                             style: GoogleFonts.poppins(
                               fontWeight: FontWeight.w500,
                               fontSize: 8,
-                              color: Color(0xff414D54),
+                              color: const Color(0xff414D54),
                             ),
                           ),
                         ),
@@ -465,7 +476,7 @@ class _HomeScreenState extends State<HomeScreen> {
                               borderRadius: BorderRadius.circular(5),
                               border: Border.all(
                                 width: 1,
-                                color: Color(0xffDDEBE5),
+                                color: const Color(0xffDDEBE5),
                               ),
                             ),
                             child: Row(
@@ -476,7 +487,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                   style: GoogleFonts.poppins(
                                     fontWeight: FontWeight.w500,
                                     fontSize: 8,
-                                    color: Color(0xff414D54),
+                                    color: const Color(0xff414D54),
                                   ),
                                 ),
                                 Text(
@@ -484,7 +495,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                   style: GoogleFonts.poppins(
                                     fontWeight: FontWeight.w500,
                                     fontSize: 8,
-                                    color: Color(0xff414D54),
+                                    color: const Color(0xff414D54),
                                   ),
                                 ),
                               ],
@@ -503,7 +514,7 @@ class _HomeScreenState extends State<HomeScreen> {
                               borderRadius: BorderRadius.circular(5),
                               border: Border.all(
                                 width: 1,
-                                color: Color(0xffDDEBE5),
+                                color: const Color(0xffDDEBE5),
                               ),
                             ),
                             child: Row(
@@ -514,7 +525,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                   style: GoogleFonts.poppins(
                                     fontWeight: FontWeight.w500,
                                     fontSize: 8,
-                                    color: Color(0xff414D54),
+                                    color: const Color(0xff414D54),
                                   ),
                                 ),
                                 Text(
@@ -522,7 +533,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                   style: GoogleFonts.poppins(
                                     fontWeight: FontWeight.w500,
                                     fontSize: 8,
-                                    color: Color(0xff414D54),
+                                    color: const Color(0xff414D54),
                                   ),
                                 ),
                               ],

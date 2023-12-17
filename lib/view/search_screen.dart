@@ -48,7 +48,7 @@ class _SearchScreenState extends State<SearchScreen> {
             style: GoogleFonts.poppins(
               fontWeight: FontWeight.w600,
               fontSize: 22,
-              color: Color(0xff414D54),
+              color: const Color(0xff414D54),
             ),
           ),
         ),
@@ -68,11 +68,11 @@ class _SearchScreenState extends State<SearchScreen> {
               decoration: InputDecoration(
                 hintText: "Search International Courses",
                 hintStyle: GoogleFonts.poppins(
-                  color: Color(0xff414D54),
+                  color: const Color(0xff414D54),
                   fontSize: 12,
                   fontWeight: FontWeight.w700,
                 ),
-                suffixIcon: Icon(
+                suffixIcon: const Icon(
                   Icons.search,
                   color: Color(0xff414D54),
                 ),
@@ -86,16 +86,16 @@ class _SearchScreenState extends State<SearchScreen> {
               padding: EdgeInsets.symmetric(horizontal: 15.w),
               decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(5),
-                  border: Border.all(width: 1, color: Color(0xffDDEBE5))),
+                  border: Border.all(width: 1, color: const Color(0xffDDEBE5))),
               child: DropdownButton<String>(
                   isExpanded: true,
-                  underline: SizedBox(),
-                  dropdownColor: Color(0xffFDFDFD),
-                  icon: Icon(Icons.keyboard_arrow_down_sharp),
+                  underline: const SizedBox(),
+                  dropdownColor: const Color(0xffFDFDFD),
+                  icon: const Icon(Icons.keyboard_arrow_down_sharp),
                   hint: Text(
                     'Country',
                     style: GoogleFonts.poppins(
-                      color: Color(0xff414D54),
+                      color: const Color(0xff414D54),
                       fontSize: 10,
                       fontWeight: FontWeight.w600,
                     ),
@@ -123,16 +123,16 @@ class _SearchScreenState extends State<SearchScreen> {
               padding: EdgeInsets.symmetric(horizontal: 15.w),
               decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(5),
-                  border: Border.all(width: 1, color: Color(0xffDDEBE5))),
+                  border: Border.all(width: 1, color: const Color(0xffDDEBE5))),
               child: DropdownButton<String>(
                   isExpanded: true,
-                  underline: SizedBox(),
-                  dropdownColor: Color(0xffFDFDFD),
-                  icon: Icon(Icons.keyboard_arrow_down_sharp),
+                  underline: const SizedBox(),
+                  dropdownColor: const Color(0xffFDFDFD),
+                  icon: const Icon(Icons.keyboard_arrow_down_sharp),
                   hint: Text(
                     'State/ Province',
                     style: GoogleFonts.poppins(
-                      color: Color(0xff414D54),
+                      color: const Color(0xff414D54),
                       fontSize: 10,
                       fontWeight: FontWeight.w600,
                     ),
@@ -160,16 +160,16 @@ class _SearchScreenState extends State<SearchScreen> {
               padding: EdgeInsets.symmetric(horizontal: 15.w),
               decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(5),
-                  border: Border.all(width: 1, color: Color(0xffDDEBE5))),
+                  border: Border.all(width: 1, color: const Color(0xffDDEBE5))),
               child: DropdownButton<String>(
                   isExpanded: true,
-                  underline: SizedBox(),
-                  dropdownColor: Color(0xffFDFDFD),
-                  icon: Icon(Icons.keyboard_arrow_down_sharp),
+                  underline: const SizedBox(),
+                  dropdownColor: const Color(0xffFDFDFD),
+                  icon: const Icon(Icons.keyboard_arrow_down_sharp),
                   hint: Text(
                     'University',
                     style: GoogleFonts.poppins(
-                      color: Color(0xff414D54),
+                      color: const Color(0xff414D54),
                       fontSize: 10,
                       fontWeight: FontWeight.w600,
                     ),
@@ -200,7 +200,7 @@ class _SearchScreenState extends State<SearchScreen> {
                   Navigator.push(
                       context,
                       MaterialPageRoute(
-                        builder: (context) => SearchResultScreen(),
+                        builder: (context) => const SearchResultScreen(),
                       ));
                 },
                 style: ButtonStyle(

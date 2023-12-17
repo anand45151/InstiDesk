@@ -2,11 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:instidesk/main_screen.dart';
-import 'package:instidesk/provider/auth_provider.dart';
-import 'package:instidesk/res/colors.dart';
+
 import 'package:instidesk/view/widgets/custom_textfield.dart';
 import 'package:instidesk/view/widgets/password_fied.dart';
-import 'package:provider/provider.dart';
 
 class LoginScreen extends StatefulWidget {
   const LoginScreen({super.key});
@@ -48,7 +46,7 @@ class _LoginScreenState extends State<LoginScreen> {
       Navigator.pushAndRemoveUntil(
           context,
           MaterialPageRoute(
-            builder: (context) => MainScreen(),
+            builder: (context) => const MainScreen(),
           ),
           (Route<dynamic> route) => false);
     }
@@ -58,7 +56,7 @@ class _LoginScreenState extends State<LoginScreen> {
   Widget build(BuildContext context) {
     // final authProvider = Provider.of<AuthProvider>(context);
     return Scaffold(
-      backgroundColor: Color(0xffF5F5F5),
+      backgroundColor: const Color(0xffF5F5F5),
       body: SingleChildScrollView(
         child: Column(
             // mainAxisAlignment: MainAxisAlignment.start,
@@ -73,7 +71,7 @@ class _LoginScreenState extends State<LoginScreen> {
                     style: GoogleFonts.poppins(
                       fontWeight: FontWeight.w600,
                       fontSize: 22,
-                      color: Color(0xff414D54),
+                      color: const Color(0xff414D54),
                     ),
                   ),
                 ),

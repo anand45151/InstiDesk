@@ -13,7 +13,7 @@ class OnboardingScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     final token = SharedPrefs.instance().token;
     return Scaffold(
-      backgroundColor: Color(0xffF5F5F5),
+      backgroundColor: const Color(0xffF5F5F5),
       body: Column(
         // mainAxisAlignment: MainAxisAlignment.start,
         crossAxisAlignment: CrossAxisAlignment.start,
@@ -27,7 +27,7 @@ class OnboardingScreen extends StatelessWidget {
                 style: GoogleFonts.poppins(
                   fontWeight: FontWeight.w600,
                   fontSize: 22,
-                  color: Color(0xff414D54),
+                  color: const Color(0xff414D54),
                 ),
               ),
             ),
@@ -46,7 +46,7 @@ class OnboardingScreen extends StatelessWidget {
               style: GoogleFonts.poppins(
                 fontSize: 20,
                 fontWeight: FontWeight.w700,
-                color: Color(0xff414D54),
+                color: const Color(0xff414D54),
               ),
             ),
           ),
@@ -58,7 +58,7 @@ class OnboardingScreen extends StatelessWidget {
               style: GoogleFonts.poppins(
                 fontSize: 10,
                 fontWeight: FontWeight.w600,
-                color: Color(0xff7D94A0),
+                color: const Color(0xff7D94A0),
               ),
             ),
           ),
@@ -71,7 +71,7 @@ class OnboardingScreen extends StatelessWidget {
                   height: 7.h,
                   width: 35.w,
                   decoration: BoxDecoration(
-                      color: Color(0xff272727),
+                      color: const Color(0xff272727),
                       borderRadius: BorderRadius.circular(5)),
                 ),
                 SizedBox(
@@ -81,7 +81,7 @@ class OnboardingScreen extends StatelessWidget {
                   height: 7.h,
                   width: 35.w,
                   decoration: BoxDecoration(
-                      color: Color(0xff1300FF),
+                      color: const Color(0xff1300FF),
                       borderRadius: BorderRadius.circular(5)),
                 ),
               ],
@@ -97,7 +97,7 @@ class OnboardingScreen extends StatelessWidget {
               style: GoogleFonts.poppins(
                 fontWeight: FontWeight.w700,
                 fontSize: 10,
-                color: Color(0xff414D54),
+                color: const Color(0xff414D54),
               ),
             ),
           ),
@@ -111,8 +111,9 @@ class OnboardingScreen extends StatelessWidget {
               child: InkWell(
                 onTap: () {
                   Navigator.of(context).push(MaterialPageRoute(
-                    builder: (context) =>
-                        token != null ? MainScreen() : LoginScreen(),
+                    builder: (context) => token != null
+                        ? const MainScreen()
+                        : const LoginScreen(),
                   ));
                 },
                 child: Container(
@@ -120,7 +121,7 @@ class OnboardingScreen extends StatelessWidget {
                   width: 79.w,
                   decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(5),
-                      color: Color(0xff272727)),
+                      color: const Color(0xff272727)),
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                     children: [
