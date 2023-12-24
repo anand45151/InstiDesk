@@ -226,7 +226,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                   'Your\nVisas Status',
                                   style: GoogleFonts.poppins(
                                     fontWeight: FontWeight.w600,
-                                    fontSize: 10,
+                                    fontSize: 11,
                                     color: const Color(0xffffffff),
                                   ),
                                 ),
@@ -277,7 +277,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                   'Your\nCourses',
                                   style: GoogleFonts.poppins(
                                     fontWeight: FontWeight.w600,
-                                    fontSize: 10,
+                                    fontSize: 11,
                                     color: const Color(0xffffffff),
                                   ),
                                 ),
@@ -295,7 +295,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                   child: Text('C',
                                       style: GoogleFonts.poppins(
                                         fontWeight: FontWeight.w600,
-                                        fontSize: 12,
+                                        fontSize: 11,
                                         color: const Color(0xff000000),
                                       )),
                                 ),
@@ -327,7 +327,7 @@ class _HomeScreenState extends State<HomeScreen> {
                           'Your College Applications ',
                           style: GoogleFonts.poppins(
                             fontWeight: FontWeight.w600,
-                            fontSize: 10,
+                            fontSize: 11,
                             color: const Color(0xffFCFCFC),
                           ),
                         ),
@@ -382,7 +382,7 @@ class _HomeScreenState extends State<HomeScreen> {
                           'Search courses ',
                           style: GoogleFonts.poppins(
                             fontWeight: FontWeight.w600,
-                            fontSize: 10,
+                            fontSize: 11,
                             color: const Color(0xffFCFCFC),
                           ),
                         ),
@@ -438,7 +438,7 @@ class _HomeScreenState extends State<HomeScreen> {
                             'Your Counseling Agent',
                             style: GoogleFonts.poppins(
                               fontWeight: FontWeight.w500,
-                              fontSize: 9,
+                              fontSize: 10,
                               color: const Color(0xff414D54),
                             ),
                           ),

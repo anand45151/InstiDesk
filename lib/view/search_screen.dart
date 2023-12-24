@@ -69,7 +69,7 @@ class _SearchScreenState extends State<SearchScreen> {
                 hintText: "Search International Courses",
                 hintStyle: GoogleFonts.poppins(
                   color: const Color(0xff414D54),
-                  fontSize: 12,
+                  fontSize: 11,
                   fontWeight: FontWeight.w700,
                 ),
                 suffixIcon: const Icon(
@@ -96,7 +96,7 @@ class _SearchScreenState extends State<SearchScreen> {
                     'Country',
                     style: GoogleFonts.poppins(
                       color: const Color(0xff414D54),
-                      fontSize: 10,
+                      fontSize: 11,
                       fontWeight: FontWeight.w600,
                     ),
                   ),
@@ -133,7 +133,7 @@ class _SearchScreenState extends State<SearchScreen> {
                     'State/ Province',
                     style: GoogleFonts.poppins(
                       color: const Color(0xff414D54),
-                      fontSize: 10,
+                      fontSize: 11,
                       fontWeight: FontWeight.w600,
                     ),
                   ),
@@ -170,7 +170,7 @@ class _SearchScreenState extends State<SearchScreen> {
                     'University',
                     style: GoogleFonts.poppins(
                       color: const Color(0xff414D54),
-                      fontSize: 10,
+                      fontSize: 11,
                       fontWeight: FontWeight.w600,
                     ),
                   ),
@@ -212,7 +212,7 @@ class _SearchScreenState extends State<SearchScreen> {
                 child: Text(
                   'Search',
                   style: GoogleFonts.poppins(
-                    fontSize: 10,
+                    fontSize: 11,
                     fontWeight: FontWeight.w600,
                     color: Colors.white,
                   ),

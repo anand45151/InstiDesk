@@ -53,7 +53,7 @@ class _PasswordFieldState extends State<PasswordField> {
               hintText: widget.hintText,
               hintStyle: GoogleFonts.poppins(
                 color: const Color(0xff414D54),
-                fontSize: 12,
+                fontSize: 11,
                 fontWeight: FontWeight.w600,
               ),
               suffixIconConstraints:

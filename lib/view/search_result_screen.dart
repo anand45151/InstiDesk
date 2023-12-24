@@ -50,7 +50,7 @@ class _SearchResultScreenState extends State<SearchResultScreen> {
               "Results of International Courses ",
               style: GoogleFonts.poppins(
                 color: const Color(0xff414D54),
-                fontSize: 12,
+                fontSize: 11,
                 fontWeight: FontWeight.w700,
               ),
             ),
@@ -66,6 +66,15 @@ class _SearchResultScreenState extends State<SearchResultScreen> {
                     child: Container(
                       width: double.infinity,
                       decoration: BoxDecoration(
+                          color: const Color(0xffFFFFFF),
+                          boxShadow: const [
+                            BoxShadow(
+                              color: Color(0xFFEAEBEB), // Set your shadow color
+                              offset: Offset(0, 4), // Set your x and y offset
+                              blurRadius: 12, // Set your blur radius
+                              spreadRadius: 0, // Set your spread radius
+                            ),
+                          ],
                           border: Border.all(
                               width: 1, color: const Color(0xffDDEBE5))),
                       child: Column(
@@ -82,7 +91,7 @@ class _SearchResultScreenState extends State<SearchResultScreen> {
                                   'ACADIA UNIVERSITY',
                                   style: GoogleFonts.poppins(
                                     fontWeight: FontWeight.w500,
-                                    fontSize: 10,
+                                    fontSize: 11,
                                     color: const Color(0xff414D54),
                                   ),
                                 ),

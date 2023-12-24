@@ -46,7 +46,16 @@ class _CollageApplicationScreenState extends State<CollageApplicationScreen> {
             padding: EdgeInsets.symmetric(horizontal: 15.w),
             alignment: Alignment.centerLeft,
             decoration: BoxDecoration(
-              color: const Color(0xff2596BE),
+              boxShadow: [
+                BoxShadow(
+                  color: const Color(0xFF316163)
+                      .withOpacity(0.1), // Set your shadow color
+                  offset: const Offset(0, 0), // Set your x and y offset
+                  blurRadius: 12, // Set your blur radius
+                  spreadRadius: 0, // Set your spread radius
+                ),
+              ],
+              color: const Color(0xffffffff),
               borderRadius: BorderRadius.circular(5),
               border: Border.all(
                 width: 1,
@@ -57,8 +66,8 @@ class _CollageApplicationScreenState extends State<CollageApplicationScreen> {
               'Your College Applications & Status',
               style: GoogleFonts.poppins(
                 fontWeight: FontWeight.w600,
-                fontSize: 10,
-                color: const Color(0xffFCFCFC),
+                fontSize: 11,
+                color: const Color(0xff414D54),
               ),
             ),
           ),
@@ -74,6 +83,15 @@ class _CollageApplicationScreenState extends State<CollageApplicationScreen> {
                   child: Container(
                     width: double.infinity,
                     decoration: BoxDecoration(
+                        color: const Color(0xffffffff),
+                        boxShadow: const [
+                          BoxShadow(
+                            color: Color(0xFFEAEBEB), // Set your shadow color
+                            offset: Offset(0, 0), // Set your x and y offset
+                            blurRadius: 15, // Set your blur radius
+                            spreadRadius: 0, // Set your spread radius
+                          ),
+                        ],
                         border: Border.all(
                             width: 1, color: const Color(0xffDDEBE5))),
                     child: Column(
@@ -90,7 +108,7 @@ class _CollageApplicationScreenState extends State<CollageApplicationScreen> {
                                 'ALGONQUIN COLLEGE',
                                 style: GoogleFonts.poppins(
                                   fontWeight: FontWeight.w500,
-                                  fontSize: 10,
+                                  fontSize: 11,
                                   color: const Color(0xff414D54),
                                 ),
                               ),

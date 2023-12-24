@@ -56,7 +56,7 @@ class OnboardingScreen extends StatelessWidget {
             child: Text(
               'Our goal is to ensure that you have everything you need\n to feel comfortable as a student , and to smother your\n application process  .',
               style: GoogleFonts.poppins(
-                fontSize: 10,
+                fontSize: 11,
                 fontWeight: FontWeight.w600,
                 color: const Color(0xff7D94A0),
               ),
@@ -96,13 +96,13 @@ class OnboardingScreen extends StatelessWidget {
               'Student Portal',
               style: GoogleFonts.poppins(
                 fontWeight: FontWeight.w700,
-                fontSize: 10,
+                fontSize: 11,
                 color: const Color(0xff414D54),
               ),
             ),
           ),
           SizedBox(
-            height: 65.h,
+            height: 60.h,
           ),
           Align(
             alignment: Alignment.bottomRight,
@@ -128,7 +128,7 @@ class OnboardingScreen extends StatelessWidget {
                       Text(
                         'Next',
                         style: GoogleFonts.poppins(
-                          fontSize: 10,
+                          fontSize: 11,
                           fontWeight: FontWeight.w600,
                           color: Colors.white,
                         ),

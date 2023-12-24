@@ -81,6 +81,15 @@ class _ProfileScreenState extends State<ProfileScreen> {
                   width: double.infinity,
                   padding: EdgeInsets.symmetric(horizontal: 15.w),
                   decoration: BoxDecoration(
+                      boxShadow: [
+                        BoxShadow(
+                          color: const Color(0xFF316163)
+                              .withOpacity(0.1), // Set your shadow color
+                          offset: const Offset(0, 0), // Set your x and y offset
+                          blurRadius: 12, // Set your blur radius
+                          spreadRadius: 0, // Set your spread radius
+                        ),
+                      ],
                       color: const Color(0xffffffff),
                       borderRadius: BorderRadius.circular(5),
                       border:
@@ -96,7 +105,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                         'Hello , Priyanka Patel',
                         style: GoogleFonts.poppins(
                           fontWeight: FontWeight.w700,
-                          fontSize: 12,
+                          fontSize: 11,
                           color: const Color(0xff414D54),
                         ),
                       ),
@@ -110,7 +119,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                             'Contact Number',
                             style: GoogleFonts.poppins(
                               fontWeight: FontWeight.w500,
-                              fontSize: 10,
+                              fontSize: 11,
                               color: const Color(0xff414D54),
                             ),
                           ),
@@ -118,7 +127,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                             '+91 9825098250',
                             style: GoogleFonts.poppins(
                               fontWeight: FontWeight.w500,
-                              fontSize: 10,
+                              fontSize: 11,
                               color: const Color(0xff414D54),
                             ),
                           ),
@@ -131,7 +140,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                             'Branch ',
                             style: GoogleFonts.poppins(
                               fontWeight: FontWeight.w500,
-                              fontSize: 10,
+                              fontSize: 11,
                               color: const Color(0xff414D54),
                             ),
                           ),
@@ -139,7 +148,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                             'GIHO_2566',
                             style: GoogleFonts.poppins(
                               fontWeight: FontWeight.w500,
-                              fontSize: 10,
+                              fontSize: 11,
                               color: const Color(0xff414D54),
                             ),
                           ),
@@ -152,7 +161,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                             'Email',
                             style: GoogleFonts.poppins(
                               fontWeight: FontWeight.w500,
-                              fontSize: 10,
+                              fontSize: 11,
                               color: const Color(0xff414D54),
                             ),
                           ),
@@ -160,7 +169,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                             'priyankapatel@gmail.com',
                             style: GoogleFonts.poppins(
                               fontWeight: FontWeight.w500,
-                              fontSize: 10,
+                              fontSize: 11,
                               color: const Color(0xff414D54),
                             ),
                           ),
@@ -173,7 +182,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                             'Preferred Country',
                             style: GoogleFonts.poppins(
                               fontWeight: FontWeight.w500,
-                              fontSize: 10,
+                              fontSize: 11,
                               color: const Color(0xff414D54),
                             ),
                           ),
@@ -181,7 +190,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                             'Canada',
                             style: GoogleFonts.poppins(
                               fontWeight: FontWeight.w500,
-                              fontSize: 10,
+                              fontSize: 11,
                               color: const Color(0xff414D54),
                             ),
                           ),
@@ -194,7 +203,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                             'Purpose',
                             style: GoogleFonts.poppins(
                               fontWeight: FontWeight.w500,
-                              fontSize: 10,
+                              fontSize: 11,
                               color: const Color(0xff414D54),
                             ),
                           ),
@@ -202,7 +211,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                             'Student Visa',
                             style: GoogleFonts.poppins(
                               fontWeight: FontWeight.w500,
-                              fontSize: 10,
+                              fontSize: 11,
                               color: const Color(0xff414D54),
                             ),
                           ),
@@ -221,6 +230,15 @@ class _ProfileScreenState extends State<ProfileScreen> {
                   width: double.infinity,
                   padding: EdgeInsets.symmetric(horizontal: 15.w),
                   decoration: BoxDecoration(
+                      boxShadow: [
+                        BoxShadow(
+                          color: const Color(0xFF316163)
+                              .withOpacity(0.1), // Set your shadow color
+                          offset: const Offset(0, 0), // Set your x and y offset
+                          blurRadius: 12, // Set your blur radius
+                          spreadRadius: 0, // Set your spread radius
+                        ),
+                      ],
                       color: const Color(0xffffffff),
                       borderRadius: BorderRadius.circular(5),
                       border:
@@ -236,7 +254,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                         'Personal Details',
                         style: GoogleFonts.poppins(
                           fontWeight: FontWeight.w700,
-                          fontSize: 12,
+                          fontSize: 11,
                           color: const Color(0xff414D54),
                         ),
                       ),
@@ -250,7 +268,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                             'Full Name',
                             style: GoogleFonts.poppins(
                               fontWeight: FontWeight.w500,
-                              fontSize: 10,
+                              fontSize: 11,
                               color: const Color(0xff414D54),
                             ),
                           ),
@@ -258,7 +276,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                             'Priyanka Patel',
                             style: GoogleFonts.poppins(
                               fontWeight: FontWeight.w500,
-                              fontSize: 10,
+                              fontSize: 11,
                               color: const Color(0xff414D54),
                             ),
                           ),
@@ -272,7 +290,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                             'Address',
                             style: GoogleFonts.poppins(
                               fontWeight: FontWeight.w500,
-                              fontSize: 10,
+                              fontSize: 11,
                               color: const Color(0xff414D54),
                             ),
                           ),
@@ -280,7 +298,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                             '34, KRISHNA JYOT APP\nSIDDHI PALACE , SURAT',
                             style: GoogleFonts.poppins(
                               fontWeight: FontWeight.w500,
-                              fontSize: 10,
+                              fontSize: 11,
                               color: const Color(0xff414D54),
                             ),
                           ),
@@ -293,7 +311,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                             'Birth Date',
                             style: GoogleFonts.poppins(
                               fontWeight: FontWeight.w500,
-                              fontSize: 10,
+                              fontSize: 11,
                               color: const Color(0xff414D54),
                             ),
                           ),
@@ -301,7 +319,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                             '20/07/2001',
                             style: GoogleFonts.poppins(
                               fontWeight: FontWeight.w500,
-                              fontSize: 10,
+                              fontSize: 11,
                               color: const Color(0xff414D54),
                             ),
                           ),
@@ -317,7 +335,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                             'Status',
                             style: GoogleFonts.poppins(
                               fontWeight: FontWeight.w500,
-                              fontSize: 10,
+                              fontSize: 11,
                               color: const Color(0xff414D54),
                             ),
                           ),
@@ -353,6 +371,15 @@ class _ProfileScreenState extends State<ProfileScreen> {
                   width: double.infinity,
                   padding: EdgeInsets.symmetric(horizontal: 15.w),
                   decoration: BoxDecoration(
+                      boxShadow: [
+                        BoxShadow(
+                          color: const Color(0xFF316163)
+                              .withOpacity(0.1), // Set your shadow color
+                          offset: const Offset(0, 0), // Set your x and y offset
+                          blurRadius: 12, // Set your blur radius
+                          spreadRadius: 0, // Set your spread radius
+                        ),
+                      ],
                       color: const Color(0xffffffff),
                       borderRadius: BorderRadius.circular(5),
                       border:
@@ -368,7 +395,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                         'Education Details',
                         style: GoogleFonts.poppins(
                           fontWeight: FontWeight.w700,
-                          fontSize: 12,
+                          fontSize: 11,
                           color: const Color(0xff414D54),
                         ),
                       ),
@@ -382,7 +409,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                             'Edu. Level',
                             style: GoogleFonts.poppins(
                               fontWeight: FontWeight.w500,
-                              fontSize: 10,
+                              fontSize: 11,
                               color: const Color(0xff414D54),
                             ),
                           ),
@@ -390,7 +417,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                             'Bachelor Degree',
                             style: GoogleFonts.poppins(
                               fontWeight: FontWeight.w500,
-                              fontSize: 10,
+                              fontSize: 11,
                               color: const Color(0xff414D54),
                             ),
                           ),
@@ -403,7 +430,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                             'Result',
                             style: GoogleFonts.poppins(
                               fontWeight: FontWeight.w500,
-                              fontSize: 10,
+                              fontSize: 11,
                               color: const Color(0xff414D54),
                             ),
                           ),
@@ -411,7 +438,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                             ' 70 GPI',
                             style: GoogleFonts.poppins(
                               fontWeight: FontWeight.w500,
-                              fontSize: 10,
+                              fontSize: 11,
                               color: const Color(0xff414D54),
                             ),
                           ),
@@ -424,7 +451,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                             'Stream',
                             style: GoogleFonts.poppins(
                               fontWeight: FontWeight.w500,
-                              fontSize: 10,
+                              fontSize: 11,
                               color: const Color(0xff414D54),
                             ),
                           ),
@@ -432,7 +459,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                             ' Computer Science',
                             style: GoogleFonts.poppins(
                               fontWeight: FontWeight.w500,
-                              fontSize: 10,
+                              fontSize: 11,
                               color: const Color(0xff414D54),
                             ),
                           ),
@@ -445,7 +472,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                             'Backlogs',
                             style: GoogleFonts.poppins(
                               fontWeight: FontWeight.w500,
-                              fontSize: 10,
+                              fontSize: 11,
                               color: const Color(0xff414D54),
                             ),
                           ),
@@ -453,7 +480,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                             '0',
                             style: GoogleFonts.poppins(
                               fontWeight: FontWeight.w500,
-                              fontSize: 10,
+                              fontSize: 11,
                               color: const Color(0xff414D54),
                             ),
                           ),
@@ -466,7 +493,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                             'Language',
                             style: GoogleFonts.poppins(
                               fontWeight: FontWeight.w500,
-                              fontSize: 10,
+                              fontSize: 11,
                               color: const Color(0xff414D54),
                             ),
                           ),
@@ -474,7 +501,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                             'English',
                             style: GoogleFonts.poppins(
                               fontWeight: FontWeight.w500,
-                              fontSize: 10,
+                              fontSize: 11,
                               color: const Color(0xff414D54),
                             ),
                           ),
@@ -487,7 +514,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                             'Passing Year',
                             style: GoogleFonts.poppins(
                               fontWeight: FontWeight.w500,
-                              fontSize: 10,
+                              fontSize: 11,
                               color: const Color(0xff414D54),
                             ),
                           ),
@@ -495,7 +522,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                             '2021',
                             style: GoogleFonts.poppins(
                               fontWeight: FontWeight.w500,
-                              fontSize: 10,
+                              fontSize: 11,
                               color: const Color(0xff414D54),
                             ),
                           ),
@@ -520,7 +547,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                             'Edu. Level',
                             style: GoogleFonts.poppins(
                               fontWeight: FontWeight.w500,
-                              fontSize: 10,
+                              fontSize: 11,
                               color: const Color(0xff414D54),
                             ),
                           ),
@@ -528,7 +555,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                             'Bachelor Degree',
                             style: GoogleFonts.poppins(
                               fontWeight: FontWeight.w500,
-                              fontSize: 10,
+                              fontSize: 11,
                               color: const Color(0xff414D54),
                             ),
                           ),
@@ -541,7 +568,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                             'Result',
                             style: GoogleFonts.poppins(
                               fontWeight: FontWeight.w500,
-                              fontSize: 10,
+                              fontSize: 11,
                               color: const Color(0xff414D54),
                             ),
                           ),
@@ -549,7 +576,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                             '70 Percent',
                             style: GoogleFonts.poppins(
                               fontWeight: FontWeight.w500,
-                              fontSize: 10,
+                              fontSize: 11,
                               color: const Color(0xff414D54),
                             ),
                           ),
@@ -562,7 +589,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                             'Stream',
                             style: GoogleFonts.poppins(
                               fontWeight: FontWeight.w500,
-                              fontSize: 10,
+                              fontSize: 11,
                               color: const Color(0xff414D54),
                             ),
                           ),
@@ -570,7 +597,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                             'Commerce',
                             style: GoogleFonts.poppins(
                               fontWeight: FontWeight.w500,
-                              fontSize: 10,
+                              fontSize: 11,
                               color: const Color(0xff414D54),
                             ),
                           ),
@@ -583,7 +610,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                             'Backlogs',
                             style: GoogleFonts.poppins(
                               fontWeight: FontWeight.w500,
-                              fontSize: 10,
+                              fontSize: 11,
                               color: const Color(0xff414D54),
                             ),
                           ),
@@ -591,7 +618,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                             '0',
                             style: GoogleFonts.poppins(
                               fontWeight: FontWeight.w500,
-                              fontSize: 10,
+                              fontSize: 11,
                               color: const Color(0xff414D54),
                             ),
                           ),
@@ -604,7 +631,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                             'Language',
                             style: GoogleFonts.poppins(
                               fontWeight: FontWeight.w500,
-                              fontSize: 10,
+                              fontSize: 11,
                               color: const Color(0xff414D54),
                             ),
                           ),
@@ -612,7 +639,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                             'English',
                             style: GoogleFonts.poppins(
                               fontWeight: FontWeight.w500,
-                              fontSize: 10,
+                              fontSize: 11,
                               color: const Color(0xff414D54),
                             ),
                           ),
@@ -625,7 +652,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                             'Passing Year',
                             style: GoogleFonts.poppins(
                               fontWeight: FontWeight.w500,
-                              fontSize: 10,
+                              fontSize: 11,
                               color: const Color(0xff414D54),
                             ),
                           ),
@@ -633,7 +660,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                             '2017',
                             style: GoogleFonts.poppins(
                               fontWeight: FontWeight.w500,
-                              fontSize: 10,
+                              fontSize: 11,
                               color: const Color(0xff414D54),
                             ),
                           ),

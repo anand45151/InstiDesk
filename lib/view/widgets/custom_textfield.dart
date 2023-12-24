@@ -36,7 +36,7 @@ class CustomTextField extends StatelessWidget {
         //       child: Text(
         //         label,
         //         style: GoogleFonts.poppins(
-        //             fontSize: 12.sp,
+        //             fontSize: 11.sp,
         //             fontWeight: FontWeight.bold,
         //             color: Colors.black),
         //       ),
@@ -70,7 +70,7 @@ class CustomTextField extends StatelessWidget {
               hintText: hintText,
               hintStyle: GoogleFonts.poppins(
                 color: const Color(0xff414D54),
-                fontSize: 12,
+                fontSize: 11,
                 fontWeight: FontWeight.w600,
               ),
             ),
